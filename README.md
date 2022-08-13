@@ -40,9 +40,13 @@ Ejemplo: `ABI = [{"inputs":[{"internalType":"uint256","name":"input","type":"uin
 El ABI de un contrato se encuentra en el scan asociado a la red del contrato con el que vas a interactuar.
 
   ![Pestanya Contrato](./images/pestanyacontrato.png)
+
 Una vez se muestre ese apartado, bajas hasta donde pone _Contract ABI_
-  ![ABI](./images/abi.png)
+
+  ![ABI](./images/ABI.png)
+
   ![copyABI](./images/copyabi.png)
+
 Se copia y se pega en el apartado `.env -> ABI`
 
 ### interact.js
