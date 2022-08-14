@@ -10,18 +10,6 @@ Descarga este repositorio desde la pestaña _Code_ → _Download Zip_.
 
 Una vez descargado, tienes que descomprimir el _zip_ descargado y quedarte con la carpeta _web3-tx_ y todos sus archivos.
 
-#### Árbol
-web3-tx
-|
-|- ./images
-|- ./node_modules
-|- .env
-|- LICENSE
-|- README.md
-|- interact.js
-|- package-lock.json
-|- package.json
-
 **IMPORTANTE! - Este proyecto está diseñado para que se descarguen todos los archivos necesarios y no se dependa de descargar absolutamente nada de ningún otro repositorio.**
 
 **Si quieres actualizar las librerías simplemente borra las líneas 20-24 asociadas a las dependencias en el archivo `package.json`, el archivo `package-lock.json` y la carpeta `node_modules`. Abre una consola nueva y escribe `npm install`**
