@@ -38,7 +38,7 @@ async function interact(){
       to: process.env.CONTRACT_ADDRESS, 
       value: '0x00',
       // CAMBIAR EL METODO EN ESTA LINEA
-      data: contract.methods.transfer("0x2210cD2Fa5c4D3bdD6916F9cDF9787986B191893", 100).encodeABI(),
+      data: contract.methods.X().encodeABI(),
       type: '0x02'
     }
 
